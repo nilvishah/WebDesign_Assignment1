@@ -1,0 +1,102 @@
+*{
+    padding:0;
+    margin:0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+    color: #fff;
+}
+body{
+    font-family: montserrat;
+    background-image: url("photo2.webp");
+}
+
+.navigation{
+   
+    height: 80px;
+    width: 100%;
+}
+label.logo{
+    color: aliceblue;
+    font-size: 35px;
+    line-height: 80px;
+    padding: 0 100px;
+    font-weight: bold;
+}
+.navigation ul{
+    float: right;
+    margin-right: 20px;
+}
+.navigation ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 15px;
+    font-size: larger;
+}
+.navigation ul li a{
+    color: aliceblue;
+    padding: 7px 13px;
+    border-radius: 3px;
+}
+a:hover{
+    color: black;
+    background-color: aliceblue;
+    transition: .4s;
+}
+.content{
+    width:100%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+    color: #fff;
+    
+}
+.content h1{
+    font-size: 70px;
+    margin-top: 80px;
+}
+.content p{
+    font-size: 30px;
+    margin: 25px auto;
+    font-weight: 100;
+    line-height: 25px;
+}
+button{
+    font-size: 15px;
+    width:200px;
+    padding: 15px 0;
+    text-align: center;
+    margin: 10px 10px;
+    border-radius: 25px;
+    font-weight: bold;
+    border: 2px solid;
+    background: transparent;
+    color: #fff;
+    cursor: pointer;
+}
+button:hover{
+    color:black;
+    background-color: #fff;
+    transition: .4s;
+}
+details > summary{
+    padding: 4px;
+    width: 200px;
+    border: none;
+    cursor: pointer;
+    
+}
+/* CSS for the footer */
+footer {
+    background-color: transparent; 
+    color: #fff;
+    text-align: center; 
+}
+.footer{
+    margin-top: 600px;
+}
+
+
+
+
